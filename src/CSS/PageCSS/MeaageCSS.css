@@ -1,0 +1,86 @@
+
+.container{height: 1200px;width: 100%; margin-right: 0px;margin-left: 10px;}
+.container{height: 1200px;width: 95%;margin-left:0px;	}
+/* MESSAGE LeftPage*/
+.pageleft{height: 100%;  padding-left: 10px;padding-top: 10px;}
+.pageleft h2{width: 100%;height: 40px; text-align: left;font-weight: normal;}
+/* article Title*/
+.articleTitleRow{width: 100%; height: 30px;background-color:white;  border-radius: 3px;}
+.articleTitleRow .articleTitle{height: 100%;;padding-top: 5px;}
+.articleTitleRow .articleDate{height: 100%;padding-top: 5px;}
+.articleTitleRow .articleContent{height: 100%;padding-top: 5px;}
+
+a.btn{width: 15%;float: left;}
+.articleContent   a.middleArt{
+color: gray;
+width: 85%;
+float: left;
+font-weight: 300;
+margin-bottom: 2px;
+white-space: nowrap;/*强制不换行*/
+overflow: hidden !important; /*自动隐藏文字*/
+text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+}
+.articleContent  a.middleArtT{
+color: gray;
+width: 100%;
+float: left;
+font-weight: 300;
+margin-bottom: 2px;
+white-space: nowrap;/*强制不换行*/
+overflow: hidden !important; /*自动隐藏文字*/
+text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+}
+
+.articleTitleRowT{width: 100%; height: 30px;background-color:#f9f9f9 ; border-radius: 3px;}
+.articleTitleRowT .articleTitle{height: 100%;;padding-top: 2px;}
+.articleTitleRowT .articleDate{height: 100%;padding-top: 2px;}
+.articleTitleRowT .articleContent{height: 100%;padding-top: 2px;}
+
+
+.articleTitle i{float: left;margin-top: 2px;margin-left: 10px}
+.articleTitle p{float: left;margin-top: -1px; font-weight: 300;white-space: nowrap;/*强制不换行*/ margin-left: 5px;}
+/*article content*/
+
+.articleContent i{
+width: 100%;
+float: left;
+font-weight: 300;
+margin-bottom: 2px;
+white-space: nowrap;/*强制不换行*/
+overflow: hidden !important; /*自动隐藏文字*/
+text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+}
+.articleDate p{text-align: center;font-weight: 300;width: 100%;white-space: nowrap;/*强制不换行*/}
+
+/* MESSAGE RIGHTPAGE*/
+.pageRight{ height: 1200px; border-left: 2px solid #f9f9f9;padding-left: 0px;padding-right: 0px;}
+/* Top Title*/
+.pageRight  .Topimage{width: 100%;height: 160px;background-color: #6be3ed;padding-top: 10px;padding-left: 10px;}
+/* personal Info*/
+  .Topimage p{font-size: 27px;color: white; font-weight: 200;}
+  .personInfo{width: 100%;height: 60px;background-color: #f9f9f9;}
+.personInfo .personInfoleft{height: 100%;width: 70%;float: left;padding-top: 10px;}
+.personInfo .personInfoleft i,p{font-weight: 100; font-size: 8px;color: black;float: left;margin-left: 10px;}
+
+.personInfo .personInfoRight{height: 100%;width: 30%;float: left;padding-top: 10px;}
+.personInfo .personInfoRight p,i{ font-weight: 100; font-size: 8px;color: black;margin-left: 10px;float: right;}
+
+.pageRight  .articleBox{width: 95%;height: 150px;float: right;}
+.pageRight  .articleBox .PerArticle{width: 100%;height: 500px;}
+.pageRight  .articleBox .PerArticle p{font-size: 15px;}
+
+
+.pageRight  .articleBox .DownloadInfo{width: 100%;height: 140px;border-top: 2px solid #f9f9f9;border-bottom: : 2px solid #f9f9f9;}
+.DownloadInfo .personInfo{width: 100%;height: 40px;}
+.DownloadInfo .personInfo .personInfoleft{height: 100%;width: 70%;padding-top: 15px;float: left;}
+.DownloadInfo .personInfo .personInfoleft i,p{font-weight: 100; font-size: 8px;color: black;float: left;margin-left: 10px;}
+
+.DownloadInfo .personInfo .personInfoRight{height: 100%;width: 30%;padding-top: 15px;float: left;}
+.DownloadInfo .personInfo .personInfoRight p,i{ font-weight: 100; font-size: 8px;color: black;margin-left: 10px;float: right;}
+
+
+
+
+.articleBox textarea.InputBox{border: 2px solid #f9f9f9;width: 100%;height: 200px;outline: none;}
+.articleBox button{outline: none;border: none;}
